@@ -3,8 +3,11 @@ package lms_126
 fun task7(): String {
 
     return /*
-    if number 1-100 is even print number
-    else print error
+    for number 1-100
+    if number is odd
+    output number
+    else output
+    error
 
 
 
