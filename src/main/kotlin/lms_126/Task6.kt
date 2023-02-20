@@ -4,6 +4,7 @@ fun task6(): String {
 
     return /*
     input 1-25 * 5
+    output number 
     5 * 1 = 5
     5 * 2 = 10
     5 * 3 = 15
@@ -12,7 +13,11 @@ fun task6(): String {
     */
     ....
 /*
-   if number 1-100 is multiples of 5 print number
+   for number 1 to 100
+   if number is multiples of 5
+   output number
    else
+   output error
+
     */
 }
