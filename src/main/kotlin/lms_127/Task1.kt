@@ -1,6 +1,17 @@
 package lms_127
 
-fun task1() {
+import java.util.Currency
 
-    TODO("Erase this line and write your solution")
+fun task1() {
+    val country = "Panama"
+    val capital = "Panama City"
+    val currency = "USD"
+    print("Country: $country")
+    print("Capital: $capital")
+    print("Currency: $currency")
+
+}
+
+fun main() {
+    task1()
 }
