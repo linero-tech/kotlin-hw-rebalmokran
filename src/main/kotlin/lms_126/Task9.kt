@@ -1,9 +1,8 @@
 package lms_126
 
 fun task9(): String {
-
-    return /*
-    input creditcard
+    return """
+    input credit card
     input password
     else
     if password is incorrect
@@ -12,8 +11,5 @@ fun task9(): String {
     else
     if amount is incorrect
     output error
-    */
-
-
-
+    """
 }
