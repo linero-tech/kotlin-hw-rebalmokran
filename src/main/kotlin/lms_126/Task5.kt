@@ -1,8 +1,7 @@
 package lms_126
 
 fun task5(): String {
-
-    return /*
+    return """
     input x
 if x = 1
 output monday
@@ -13,4 +12,5 @@ output wednesday
 ...
 else
 output error
+"""
 }
