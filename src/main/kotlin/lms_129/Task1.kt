@@ -1,19 +1,20 @@
 package lms_129
 
-fun task1(a: Int, b: Int) {
+fun task1(a: Int, b: Int): Int {
 
     var result = 0
 
     if (a >= b) {
-        result
-    } else
-        for (number in a..b) {
-            result += number
+        return 0
+    } else{
+        for (i in a..b) {
+            result += i
         }
-    println(result)
+    }
+    return result
 
 }
 
 fun main() {
-    task1(a = 6, b = 5)
+    println(task1(a = 6, b = 5))
 }
