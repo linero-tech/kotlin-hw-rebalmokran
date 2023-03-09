@@ -2,5 +2,12 @@ package lms_129
 
 fun task8(number: Int): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    var result = 0
+    number.toString().forEach {digit ->
+        result += digit.digitToInt()
+    }
+    return result
+}
+fun main (){
+    println(task8(number = 123))
 }
