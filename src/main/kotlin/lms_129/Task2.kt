@@ -18,9 +18,9 @@ fun task2(number: Int): Boolean {
     return result
 }
     fun main (){
-    val number = 1
+    val number = 5
     val isPrime = task2(number)
-    println("Number $number is prime: $isPrime")
+    println("$isPrime")
 }
 
 
