@@ -6,9 +6,9 @@ fun task1() {
     val country = "Panama"
     val capital = "Panama City"
     val currency = "USD"
-    print("Country: $country")
-    print("Capital: $capital")
-    print("Currency: $currency")
+    println("Country: $country")
+    println("Capital: $capital")
+    println("Currency: $currency")
 
 }
 
